@@ -1,0 +1,175 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*-------------------------*/
+
+input[type=text] {
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px #A9A414;
+  border-radius: 5px;
+  font-size: 17px;
+  text-align: right;
+  background-color: white;
+  background-image: url("search-icon-android22.jpg");
+  background-position: 11px 11px; 
+  background-repeat: no-repeat;
+  padding: 13px 25px 13px 45px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+  width: 25%;
+}
+ #myDIV 
+{
+  background-color: black;
+  border: 1px solid black;
+  color:aliceblue;
+  animation: mymove 5s;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: right;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 30px 40px;
+  text-decoration: none;
+}
+
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 30px 40px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color:darkgoldenrod;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color:olive;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@keyframes mymove 
+{
+  80% {padding: 130px;}
+}
+
+ .navbar-right a{
+  float: right;
+  position: fixed;
+  background-color: #333;
+  color: white;
+  
+  font-size: 16px;
+  text-align: center;
+  padding: 30px 40px;
+  text-decoration: none;
+ 
+}
+  
+  /*margin-right: 20px;*/
+
+  
+/* Footer */
+.f-container {
+ padding: 70px;
+  text-align: center;
+  background: black;
+  color: aliceblue;
+}
+h1
+{
+	color:black;
+	font-family: "Courier New", monospace;
+	font-size: 120px;
+	text-align: top;  
+		
+}
+
+body
+{
+	background-color:white;
+	background-attachment:fixed;
+	background-repeat: no-repeat;
+	color: black;
+	background-size: cover;
+}
+p{
+	color:black;
+	font-family: "Courier New", monospace;
+	font-size: 30px;
+	text-align:center;
+	
+}
+
+
+img
+{
+ max-width:auto;
+ height:100%;
+}
+a
+{
+	color:inherit;
+}
+.centered {
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 160px;
+  text-align: center;
+  animation: mymove 40s;
+}
+.container {
+  position:relative;
+  text-align:center;
+  color: black;
+  text-decoration:bold;
+  font-size: 100px;
+  animation: mymove 2.3s;
+  animation-direction:normal;
+}

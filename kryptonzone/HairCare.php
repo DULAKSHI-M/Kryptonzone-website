@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>KryptonZone - Hair Care</title>
+<link rel="stylesheet" type="text/css" href="HairCare.css">
+</head>
+
+<body>
+<div class="navbar">
+  <a href="indexnew.php">Home</a>
+  <a href="AboutUs.php">About Us</a>
+  <div class="dropdown">
+    <button class="dropbtn">Products<i class="fa fa-caret-down"></i></button>
+    <div class="dropdown-content">
+      <a href="FaceCare.php">Face Care</a>
+      <a href="BodyCare.php">Body Care</a>
+      <a href="HairCare.php">Hair Care</a>
+    </div>
+  </div>
+    <a href="ContactUs.php">Contact Us</a>
+    <a href="Billing.php">Billing</a>
+	<form>
+  <input type="text" name="search" placeholder="Search...">
+</form>
+</div>
+<div class="container">
+  <img src="istockphoto.jpg" alt="hair" style="width:100%;">
+   <div class="centered"><b>HAIR CARE</b></div>
+</div>
+<!-- The grid: four columns -->
+<div class="row">
+  <div class="column">
+	  <div class="card">
+    <img src="Five-Hair.jpg" alt="imagesee" onclick="myFunction(this);">
+	<p class="price">Rs.2600.00</p>
+  <p><button>Add to Cart</button></p>
+  </div>
+  </div>
+  <div class="column">
+	  <div class="card">
+    <img src="TRESemme.png" alt="Herbal" onclick="myFunction(this);">
+	  <p class="price">Rs.1700.00</p>
+  <p><button>Add to Cart</button></p>
+  </div>
+
+  </div>
+  <div class="column">
+	  <div class="card">
+    <img src="Best-New.jpg" alt="olay" onclick="myFunction(this);">
+	  <p class="price">Rs.3600.00</p>
+  <p><button>Add to Cart</button></p>
+  </div>
+  </div>
+  <div class="column">
+	  <div class="card">
+    <img src="51O.jpg" alt="Lights" onclick="myFunction(this);">
+	  <p class="price">Rs.4000.00</p>
+  <p><button>Add to Cart</button></p>
+  </div>
+  </div>
+</div>
+
+<!-- The expanding image container -->
+<div class="g-container">
+  <!-- Close the image -->
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+  <!-- Expanded image -->
+  <img id="expandedImg" style="width:10%">
+
+  <!-- Image text -->
+  <div id="imgtext"></div>
+</div>
+<script>
+	function myFunction(imgs) {
+  // Get the expanded image
+  var expandImg = document.getElementById("expandedImg");
+  // Get the image text
+  var imgText = document.getElementById("imgtext");
+  // Use the same src in the expanded image as the image being clicked on from the grid
+  expandImg.src = imgs.src;
+  // Use the value of the alt attribute of the clickable image as text inside the expanded image
+  imgText.innerHTML = imgs.alt;
+  // Show the container element (hidden with CSS)
+  expandImg.parentElement.style.display = "block";
+}	
+</script>	
+
+	
+</body>
+	<footer class="f-container">
+  <h2>KryptonZone</h2>
+  <i class="fa fa-facebook-official f-hover-opacity"></i>
+  <i class="fa fa-instagram f-hover-opacity"></i>
+  <i class="fa fa-snapchat f-hover-opacity"></i>
+  <i class="fa fa-pinterest-p f-hover-opacity"></i>
+</footer>
+</html>

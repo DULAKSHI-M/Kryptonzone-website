@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>KryptonZone - Contact Us</title>
+<link rel="stylesheet" type="text/css" href="ContactUs.css">
+</head>
+
+<body>
+<div class="navbar">
+  <a href="indexnew.php">Home</a>
+  <a href="AboutUs.php">About Us</a>
+  <div class="dropdown">
+    <button class="dropbtn">Products<i class="fa fa-caret-down"></i></button>
+    <div class="dropdown-content">
+      <a href="FaceCare.php">Face Care</a>
+      <a href="BodyCare.php">Body Care</a>
+      <a href="HairCare.php">Hair Care</a>
+    </div>
+  </div>
+    <a href="ContactUs.php">Contact Us</a>
+    <a href="Billing.php">Billing</a>
+	<form>
+  <input type="text" name="search" placeholder="Search...">
+</form>
+</div>
+	
+  <!-- The Contact Section -->
+<div class="container content padding-64" style="max-width:800px" id="contact">
+<h1 class="wide center">CONTACT US</h1>
+<p class="opacity center"><i>If you’d like to get in touch with us, please drop us a call or send us an email. Our contact information at our respective offices can be found in the section just below.</i></p>
+
+	<pre>
+	   <b><b>
+     ____________________
+      |                    | 
+      |     CUSTOMER       | 
+      |     SUCCESS        | 
+      |                    | 
+     |____________________|
+        (\__/)  || 
+        (•ㅅ•)  || 
+    / 　 づ
+      
+	  </b></b>
+	  </pre>
+ 
+	
+	<div class="d-card-4" style="width:50%;">
+    <header class="d-container d-blue">
+      <h2>Panadura</h2>
+    </header>
+    <div class="d-container">
+      <p>Address-No.105,Hirana,Panadura,SriLanka</p>
+	  <p>Email-dkm@gmail.com</p>
+	  <p>Tel-+947 1322 2350</p>
+    </div>
+	</div>
+	<br>
+	<div class="d-card-4" style="width:50%;">
+    <header class="d-container d-blue">
+      <h2>Horana</h2>
+    </header>
+    <div class="d-container">
+      <p>Address-No.106,Mahawila,Horana,SriLanka</p>
+	  <p>Email-dkm@gmail.com</p>
+	  <p>Tel-+947 1322 2330</p>
+    </div>
+	</div>
+	
+</div>
+</body>
+<footer class="f-container">
+  <h2>KryptonZone</h2>
+  <i class="fa fa-facebook-official f-hover-opacity"></i>
+  <i class="fa fa-instagram f-hover-opacity"></i>
+  <i class="fa fa-snapchat f-hover-opacity"></i>
+  <i class="fa fa-pinterest-p f-hover-opacity"></i>
+</footer>
+
+</html>
+  
